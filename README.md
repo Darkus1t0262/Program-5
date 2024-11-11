@@ -26,3 +26,6 @@ docker build -t countdown-timer .
 Run the Docker container to start the countdown timer.
 
 docker run -it countdown-timer
+
+Download Image from DockerHub
+docker run -p 50000:5000 --name countdown darkjus/program-5
