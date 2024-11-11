@@ -1,17 +1,10 @@
 #!/bin/bash
 
-# Prompt user to enter the countdown time in seconds
-echo "Enter the countdown time in seconds:"
-read seconds
+# Set a static countdown time in seconds
+seconds=10
 
-# Confirm input
+# Confirm the countdown
 echo "Starting countdown from $seconds seconds..."
-
-# Check if the input is a positive integer
-if ! [[ "$seconds" =~ ^[0-9]+$ ]]; then
-  echo "Please enter a valid positive integer."
-  exit 1
-fi
 
 # Countdown loop
 while [ $seconds -gt 0 ]; do
