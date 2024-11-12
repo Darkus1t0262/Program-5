@@ -15,7 +15,7 @@ A simple countdown timer implemented in a Bash script. This program prompts a co
 
 1. **Clone this repository** or ensure you have the program files on your local machine.
 
-   ```bash
+   
    git clone https://github.com/Darkus1t0262/Program-5.git
    cd Program-5/Countdown
 
@@ -27,5 +27,9 @@ Run the Docker container to start the countdown timer.
 
 docker run -it countdown-timer
 
-Download Image from DockerHub
+## Download Image from DockerHub
 docker run -p 50000:5000 --name countdown darkjus/program-5
+
+## Railway Screenshot 
+![image](https://github.com/user-attachments/assets/0ce80534-924a-4fcf-8190-80ab2a4b1ada)
+
